@@ -42,8 +42,8 @@ header ul, header li {
 }
 
 header .logo {
-    width: 120px;
-    margin-left: 20px;
+    width: 140px;
+    margin-left: 50px;
 }
 
 header .middle ul {
@@ -51,7 +51,7 @@ header .middle ul {
 }
 
 header .middle li {
-    margin: 0 10px;
+    margin: 0 5px;
     padding: 7px;
 }
 
@@ -211,4 +211,24 @@ footer .arrow {
         margin: 10px 20px;
         width: calc(100vw - 40px);
     }
+}
+
+/* 
+    APRIMORANDO O PROJETO 
+    A PARTIR DAQUI, ADICIONEI SEPARADO O CÓDIGO,
+    FICARÁ REDUNDANTE MAS PARA FINS DIDÁTICOS DEIXAREI DESSA FORMA.
+    - ANIMAÇÃO DO MENU -
+*/
+header .middle li {
+    padding: 10px 15px;
+}
+@keyframes fadeIn {
+    50% { background-color: rgba(200,202,204, 0.2);
+        border-radius: 10px; }
+    100% { background-color: rgba(200,202,204, 0.5);
+        border-radius: 10px; }
+    }
+header .middle li:hover {
+    background-color: rgba(200,202,204, 0.5);
+    border-radius: 10px;
 }
